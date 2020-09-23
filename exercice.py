@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#faire commit sur vscode!!!
 
 from typing import List
 
@@ -20,11 +20,21 @@ def prime_integer_summation() -> int:
 
 
 def factorial(number: int) -> int:
-    return 0
+    resultat=1
+    if number == 0:
+        return result
+    else:
+        for i in range(number):
+            result*=(number-i)
+         return result
 
 
 def use_continue() -> None:
-    pass
+    for chiffre in range (1,11):
+        if chiffre==5:
+            continue
+        print (chiffre)
+   
 
 
 def main() -> None:
